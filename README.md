@@ -17,3 +17,7 @@ Through the implementation of classical machine learning models for classificati
 ## Conclusion
 
 This project represents an exploration into the realm of computer vision and machine learning, with the ultimate goal of building a robust system capable of accurately classifying hand-drawn sketches, thereby addressing the inherent challenges posed by these types of images.# CV_Project
+
+## How to run
+
+The Colab file contains all the code for this project simply run from top to bottom.
