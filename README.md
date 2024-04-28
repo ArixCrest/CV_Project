@@ -6,13 +6,13 @@ Our project aims to tackle the challenge of accurately classifying hand-drawn im
 
 ## Approach
 
-To achieve our objective, we explore various image enhancement techniques such as denoising, contrast enhancement, filtering, and CLAHE image processing. Additionally, we implement feature extraction methods including horizontal projection, shape detection, corners, edges, and Local Binary Patterns (LBP) to capture key characteristics of hand-drawn sketches.
+To achieve our objective, we explore various image enhancement techniques such as denoising, contrast enhancement, filtering, and CLAHE image processing. Additionally, we implement feature extraction methods including corners, edges, and  HIstogram of Oriented Gradients(HOG) to capture key characteristics of hand-drawn sketches.
 
-Furthermore, we leverage data augmentation techniques such as rotation and horizontal flipping to increase the diversity of our training dataset. We also investigate vectorization approaches using thresholding to convert images into vector representations for model training.
+Furthermore, we leverage data augmentation techniques such as rotation and horizontal flipping to increase the diversity of our training dataset.
 
 ## Classification Models
 
-Through the implementation of classification models such as K-Nearest Neighbors (KNN), Logistic Regression, Naive Bayes, and Random Forest, we aim to develop a comprehensive understanding of the performance of these models on hand-drawn image classification tasks. By evaluating the accuracy and effectiveness of each model, we seek to identify the most suitable approach for our classification problem.
+Through the implementation of classical machine learning models for classification such as K-Nearest Neighbors (KNN), Logistic Regression, Naive Bayes, Random Forest, Support Vector Machines(SVM). We also tried boosting methods like Adaboost and XGBoost. Apart from these we also leverage Deep Learning methods using Simple MLP and Xception model. We aim to develop a comprehensive understanding of the performance of these models on hand-drawn image classification tasks. By evaluating the accuracy and effectiveness of each model, we seek to identify the most suitable approach for our classification problem.
 
 ## Conclusion
 
